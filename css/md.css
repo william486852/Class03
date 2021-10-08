@@ -117,8 +117,6 @@
 	font-size: 1em;
 	text-indent: 0px;
 }
-
-
 #footer {
 	background-color: #33326A;
 	width: 100%;
@@ -148,5 +146,21 @@
     body{
       font-size:32px;
     }
+}
+#nav {	list-style-type: none;	position: relative;	margin-top: 0px;	margin-right: 0px;	margin-bottom: 0px;	margin-left: 0px;	padding-top: 7px;	padding-bottom: 22px;	padding-right: 23px;	padding-left: 37px;	float: left;}
+#nav li {	float: left;	position: relative;}
+
+#nav li a {	float: left;	display: inline-block;	padding-top: 20px;	padding-bottom: 20px;	padding-left: 20px;	padding-right: 20px;	color: #FFFFFF;	text-decoration: none;	background-color: #270AD2;	background-image: -webkit-linear-gradient(270deg,rgba(8,28,163,1.00) 0%,rgba(68,105,222,1.00) 100%);	background-image: linear-gradient(180deg,rgba(8,28,163,1.00) 0%,rgba(68,105,222,1.00) 100%); }
+#nav li a:hover {	
+	background-image: -webkit-linear-gradient(270deg,rgba(236,13,203,1.00) 0%,rgba(187,89,214,1.00) 100%);	background-image: linear-gradient(180deg,rgba(236,13,203,1.00) 0%,rgba(187,89,214,1.00) 100%);		 }
+
+#nav li ul {		
+transition: opacity 0.5s ease;	
+;}
+
+#nav li ul li a {	float: none;	border-radius: 20px;	width: 150px;	opacity: 1;	margin-bottom: 5px;} 
+
+#nav li:hover >ul{ 	
+	opacity: 1;
 }
 
