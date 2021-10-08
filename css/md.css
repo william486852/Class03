@@ -1,166 +1,156 @@
-#header {
-	background-color: #E0EFE4;
-	width: 100%;
-	height: 480px;
+#header
+{
+    background-color: #E0EFE4;
 }
-#headerContainer {
-	width: 980px;
-	margin:auto;
+#headerContainer
+{
+    width:980px;
+    margin:auto;
 }
-#rightHeader {
-	float: right;
-	width: px;
+#rightHeader
+{
+    float:right;
+    width:700px;
 }
-#topLink {
-	border-radius: 16px;
-	background-color: #2B8CCC;
-	float: right;
-	padding-top: 6px;
-	padding-bottom: 6px;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-top: 38px;
+#topLink
+{
+    border-radius: 16px;
+    background-color: #2B8CCC;
+    float: right;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 38px;
 }
-#logo {
-	float: left;
-	margin-top: 25px;
-	margin-left: 30px;
+#logo
+{
+    float: left;
+    margin-top: 25px;
+    margin-left: 30px;
 }
-#topLink a    {
-	color: #FFFFFF;
+#topLink a
+{
+    color: #FFFFFF;
 }
-#Nav ul    {
-	list-style-type: none;
-	font-size: 1.2em;
-	color: #5C5A53;
-	font-family: Charlemagne Std;
+#Nav ul
+{
+    list-style-type: none;
+    font-size: 1.2em;
+    color: #5C5A53;
+    font-family: Charlemagne Std;
 }
-#Nav ul li    {
-	float: left;
-	margin-left: 30px;
-	margin-right: 10px;
-    padding: 0 50px 0 0;
+#Nav ul li
+{
+    float: left;
+    margin-left: 30px;
+    margin-right: 10px;
+    PADDING: 0 50px 0 0;
 }
-#Nav    {
-	float: right;
-	clear: right;
+#Nav
+{
+    float: right;
+    clear: right;
 }
-#headerContainer img {
-	float: right;
-	margin-top: 10px;
+#headerContainer img
+{
+    float: right;
+    margin-top: 10px;
 }
-
-#leftheader h1  {
-	text-align: left;
-	color: #2B8BCC;
-	font-family: Charlemagne Std;
-	font-style: normal;
-	font-weight: 400;
-	background-image: url(../assets/Line.png);
-	background-repeat: no-repeat;
-	background-position: right bottom;
-	background-size: auto 1px;
+#leftheader h1
+{
+    text-align: left;
+    color: #2B8BCC;
+    font-family: Charlemagne Std;
+    font-style: normal;
+    font-weight: 400;
+    background-image: url(../images/Line.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: auto 1px;
 }
-#leftheader {
-	float: left;
-	margin-top: 18px;
-	width: 360px;
-	margin-left: 37px;
+#leftheader
+{
+    float: left;
+    margin-top: 18px;
+    width: 360px;
+    margin-left: 37px;
 }
-#leftheader h1 .h1Sec2 {
-	color: #EFA656;
+#leftheader h1 .h1Sec2
+{
+    color: #EFA656;
 }
-#leftheader p {
-	font-size: 18px;
+#leftheader p
+{
+    font-size: 18px;
 }
- 
-#mainContainer {
-	background-image: -webkit-linear-gradient(270deg,rgba(0,66,128,1.00) 0%,rgba(61,142,193,1.00) 100%);
-	background-image: linear-gradient(180deg,rgba(0,66,128,1.00) 0%,rgba(61,142,193,1.00) 100%);
-	width: 100%;
-	height: 315px;
+#mainContainer 
+{  
+    background-image: -webkit-linear-gradient(270deg,rgba(0,66,128,1.00) 0%,rgba(61,142,193,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,66,128,1.00) 0%,rgba(61,142,193,1.00) 100%);
+    width: 100%;
+    height: 315px;
+}  
+#wrapper 
+{  
+    width: 980px;
+    margin:auto;
+}  
+#wrapper .cms
+{
+    width:210px;
+    margin-left: 31px;
+    padding-top: 50px;
+    left: -4px;
+    text-indent: 15px;
+    float:left;
 }
-
-#wrapper {
-	width: 980px;
-	margin:auto;
+#wrapper .cms h3
+{
+    color: #FFFFFF;
+    text-align: left;
+    text-indent: 14px;
+    padding-top: 21px;
+    font-family: Charlemagne Std;
+    font-size: 16px;
 }
-#wrapper .cms {
-	width: 210px;
-	margin-left: 31px;
-	padding-top: 50px;
-	left: -4px;
-	text-indent: 15px;
-	float: left;
+#wrapper .cms img
+{
+    float: left;
 }
-#wrapper .cms h3 {
-	color: #FFFFFF;
-	text-align: left;
-	text-indent: 14px;
-	padding-top: 21px;
-	font-family: Charlemagne Std;
-	font-size:16px;
+#wrapper .cms a
+{
+    background-image: url(../images/RArrow.png);
+    background-repeat: left center;
+    float: left;
 }
-#wrapper .cms img {
-	float: left;
+#wrapper .cms p
+{
+    clear: both;
+    line-height: 1.2em;
+    padding-top: 10px;
+    font-size: 1em;
+    text-indent: 0px;
 }
-#wrapper .cms a {
-	background-image: url(../assets/RArrow.png);
-	background-repeat: no-repeat;
-	background-position: left center;
-	float: left;
+#footer
+{
+    background-color: #33336A;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #FFFFFF;
+    text-align: center;
 }
-#wrapper .cms p {
-	clear: both;
-	line-height: 1.2em;
-	padding-top: 10px;
-	font-size: 1em;
-	text-indent: 0px;
+#footer p
+{
+    color: #FFFFFF;
 }
-#footer {
-	background-color: #33326A;
-	width: 100%;
-	height: 40px;
-	border-top: 1px solid #FFFFFF;
-	text-align: center;
-}
-#footer p {
-	color: #FFFFFF;
-}
-@media (min-width: 768px) and (max-width: 1280px) {
-    body{
-      font-size:16px;
-    }
-}
-@media (min-width: 480px) and (max-width: 768px) {
-    body{
-      font-size:22px;
-    }
-}
-@media (min-width: 320px) and (max-width: 480px) {
-    body{
-      font-size:28px;
-    }
-}
-@media (max-width: 320px) {
-    body{
-      font-size:32px;
-    }
-}
-#nav {	list-style-type: none;	position: relative;	margin-top: 0px;	margin-right: 0px;	margin-bottom: 0px;	margin-left: 0px;	padding-top: 7px;	padding-bottom: 22px;	padding-right: 23px;	padding-left: 37px;	float: left;}
-#nav li {	float: left;	position: relative;}
-
-#nav li a {	float: left;	display: inline-block;	padding-top: 20px;	padding-bottom: 20px;	padding-left: 20px;	padding-right: 20px;	color: #FFFFFF;	text-decoration: none;	background-color: #270AD2;	background-image: -webkit-linear-gradient(270deg,rgba(8,28,163,1.00) 0%,rgba(68,105,222,1.00) 100%);	background-image: linear-gradient(180deg,rgba(8,28,163,1.00) 0%,rgba(68,105,222,1.00) 100%); }
-#nav li a:hover {	
-	background-image: -webkit-linear-gradient(270deg,rgba(236,13,203,1.00) 0%,rgba(187,89,214,1.00) 100%);	background-image: linear-gradient(180deg,rgba(236,13,203,1.00) 0%,rgba(187,89,214,1.00) 100%);		 }
-
-#nav li ul {		
-transition: opacity 0.5s ease;	
-;}
-
-#nav li ul li a {	float: none;	border-radius: 20px;	width: 150px;	opacity: 1;	margin-bottom: 5px;} 
-
-#nav li:hover >ul{ 	
-	opacity: 1;
+#mainContainer
+{
+    width: 100%;
 }
 
+#wapper
+{
+    width: 800px;
+    margin: auto;
+}
